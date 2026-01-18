@@ -1,3 +1,4 @@
+using Rossoforge.Utils.Logger;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -5,7 +6,6 @@ using System.Reflection;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.UI;
 
 namespace Rossoforge.UI.Controls.GenericDropDowns
 {
@@ -94,7 +94,7 @@ namespace Rossoforge.UI.Controls.GenericDropDowns
                 return val?.ToString() ?? "<null>";
             }
 
-            Debug.LogWarning($"Property '{TextMember}' not found in type {item.GetType().Name}.");
+            RossoLogger.Warning($"Property '{TextMember}' not found in type {item.GetType().Name}.");
             return item.ToString();
         }
 
@@ -122,7 +122,7 @@ namespace Rossoforge.UI.Controls.GenericDropDowns
                 return (Sprite)val;
             }
 
-            Debug.LogWarning($"Property '{_imageMember}' not found in type {item.GetType().Name}.");
+            RossoLogger.Warning($"Property '{_imageMember}' not found in type {item.GetType().Name}.");
             return null;
         }
 

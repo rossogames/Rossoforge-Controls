@@ -1,6 +1,6 @@
 #if UNITY_EDITOR
-using UnityEditor;
 using Rossoforge.UI.Controls.ProgressBars;
+using UnityEditor;
 using UnityEngine;
 
 namespace Rossoforge.UI.Controls

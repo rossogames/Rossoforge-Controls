@@ -21,6 +21,7 @@ Perfect for projects looking for:
 **Dependencies:**
 * Unity.TextMeshPro
 * [Rossoforge-Extensions](https://github.com/rossogames/Rossoforge-Extensions.git)
+* [Rossoforge-Utils](https://github.com/rossogames/Rossoforge-Utils.git)
 
 #
 #This package is part of the **Rossoforge** suite, designed to streamline and enhance Unity development workflows.
