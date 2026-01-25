@@ -1,0 +1,6 @@
+using Rossoforge.UI.Controls.InputFields;
+
+public class #SCRIPTNAME# : InputFieldEventsHandler<#SCRIPTNAME#>
+{
+
+}

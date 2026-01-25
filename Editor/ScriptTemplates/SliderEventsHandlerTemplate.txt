@@ -1,0 +1,6 @@
+using Rossoforge.UI.Controls.Sliders;
+
+public class #SCRIPTNAME# : SliderEventsHandler<#SCRIPTNAME#>
+{
+
+}

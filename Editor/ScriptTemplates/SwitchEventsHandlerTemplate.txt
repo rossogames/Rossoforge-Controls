@@ -1,0 +1,6 @@
+using Rossoforge.UI.Controls.Switches;
+
+public class #SCRIPTNAME# : SwitchEventsHandler<#SCRIPTNAME#>
+{
+
+}
