@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ButtonSizeInOutController
+  m_Controller: {fileID: 9100000, guid: 8bdb1ce5ec1333e4b967adb432ece593, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -59357975968623206, guid: 8bdb1ce5ec1333e4b967adb432ece593, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8ccd27bc778ca9f4bb25accca7ef72a6, type: 2}
+  - m_OriginalClip: {fileID: -5671331264997790279, guid: 8bdb1ce5ec1333e4b967adb432ece593, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 74b582a47b47abd45b09ee987ec29c16, type: 2}
+  - m_OriginalClip: {fileID: -3933663642131558252, guid: 8bdb1ce5ec1333e4b967adb432ece593, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0738c7b0ce9bd4445a1246767e0d541e, type: 2}
+  - m_OriginalClip: {fileID: -3831998032958869023, guid: 8bdb1ce5ec1333e4b967adb432ece593, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 421c980ad88d92a4b83ea462d0c35090, type: 2}
+  - m_OriginalClip: {fileID: -1429787507478110732, guid: 8bdb1ce5ec1333e4b967adb432ece593, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 319849d3dba08034ab8688bca746f478, type: 2}

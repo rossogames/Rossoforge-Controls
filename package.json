@@ -21,6 +21,11 @@
       "path": "Samples~/UIAssets"
     },
     {
+      "displayName": "Button Animator",
+      "description": "Default Unity Animator Controller for UI buttons, configured with the standard five button states (Normal, Highlighted, Pressed, Selected, and Disabled).\r\nIt also provides an Animator Override Controller as a sample, featuring simple size in/out animations to demonstrate how to customize button transitions while keeping the same base state machine.\r\nThe sample is intended as a reference for developers to easily extend or replace button animations without modifying the original controller",
+      "path": "Samples~/ButtonAnimator"
+    },
+    {
       "displayName": "Custom UI Controls",
       "description": "This sample includes prefabs for common custom UI controls such as switches, generic dropdowns, progress bars, and more. They are ready to use out of the box and can be easily customized to fit the style and functionality of your project.",
       "path": "Samples~/CustomUIControls"
