@@ -9,7 +9,7 @@ namespace Rossoforge.UI.Controls.Editor
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
                 "Packages/com.rossogames.rossoforge-ui-controls/Editor/ScriptTemplates/ButtonEventsHandlerTemplate.txt",
-                "NewButton.cs"
+                "NewButtonHandler.cs"
             );
         }
         [MenuItem("Assets/Create/Rossoforge/UI/Controls/Dropdown", false)]
@@ -17,7 +17,7 @@ namespace Rossoforge.UI.Controls.Editor
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
                 "Packages/com.rossogames.rossoforge-ui-controls/Editor/ScriptTemplates/DropdownEventsHandlerTemplate.txt",
-                "NewDropdown.cs"
+                "NewDropdownHandler.cs"
             );
         }
         [MenuItem("Assets/Create/Rossoforge/UI/Controls/Generic Dropdown", false)]
@@ -25,7 +25,7 @@ namespace Rossoforge.UI.Controls.Editor
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
                 "Packages/com.rossogames.rossoforge-ui-controls/Editor/ScriptTemplates/GenericDropdownEventsHandlerTemplate.txt",
-                "NewGenericDropdown.cs"
+                "NewGenericDropdownHandler.cs"
             );
         }
         [MenuItem("Assets/Create/Rossoforge/UI/Controls/Input Field", false)]
@@ -33,7 +33,7 @@ namespace Rossoforge.UI.Controls.Editor
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
                 "Packages/com.rossogames.rossoforge-ui-controls/Editor/ScriptTemplates/InputFieldEventsHandlerTemplate.txt",
-                "NewInputField.cs"
+                "NewInputFieldHandler.cs"
             );
         }
         [MenuItem("Assets/Create/Rossoforge/UI/Controls/Progress Bar", false)]
@@ -41,7 +41,7 @@ namespace Rossoforge.UI.Controls.Editor
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
                 "Packages/com.rossogames.rossoforge-ui-controls/Editor/ScriptTemplates/ProgressBarEventsHandlerTemplate.txt",
-                "NewProgressBar.cs"
+                "NewProgressBarHandler.cs"
             );
         }
         [MenuItem("Assets/Create/Rossoforge/UI/Controls/Slider", false)]
@@ -49,7 +49,7 @@ namespace Rossoforge.UI.Controls.Editor
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
                 "Packages/com.rossogames.rossoforge-ui-controls/Editor/ScriptTemplates/SliderEventsHandlerTemplate.txt",
-                "NewSlider.cs"
+                "NewSliderHandler.cs"
             );
         }
         [MenuItem("Assets/Create/Rossoforge/UI/Controls/Switch", false)]
@@ -57,7 +57,7 @@ namespace Rossoforge.UI.Controls.Editor
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
                 "Packages/com.rossogames.rossoforge-ui-controls/Editor/ScriptTemplates/SwitchEventsHandlerTemplate.txt",
-                "NewSwitch.cs"
+                "NewSwitchHandler.cs"
             );
         }
         [MenuItem("Assets/Create/Rossoforge/UI/Controls/Toggle", false)]
@@ -65,7 +65,7 @@ namespace Rossoforge.UI.Controls.Editor
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
                 "Packages/com.rossogames.rossoforge-ui-controls/Editor/ScriptTemplates/ToggleEventsHandlerTemplate.txt",
-                "NewToggle.cs"
+                "NewToggleHandler.cs"
             );
         }
     }
