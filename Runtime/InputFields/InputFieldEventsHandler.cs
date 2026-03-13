@@ -12,6 +12,12 @@ namespace Rossoforge.UI.Controls.InputFields
         private IInputFieldOnSelectListener<T> _onSelectListener;
         private IInputFieldOnDeselectListener<T> _onDeselectListener;
 
+        public string Text
+        {
+            get => InputField.text;
+            set => InputField.text = value;
+        }
+
         protected virtual void Awake()
         {
             InputField = GetComponent<TMP_InputField>();

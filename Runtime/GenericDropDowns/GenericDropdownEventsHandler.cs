@@ -8,6 +8,18 @@ namespace Rossoforge.UI.Controls.GenericDropDowns
         protected GenericDropdown Dropdown;
         private IGenericDropdownSelectedItemChangedListener<T, R> _selectedItemChangedListener;
 
+        public R SelectedItem
+        {
+            get => Dropdown.GetSelectedItem<R>();
+            set => Dropdown.SetSelectedItem(value);
+        }
+
+        public int Value
+        {
+            get => Dropdown.value;
+            set => Dropdown.value = value;
+        }
+
         protected virtual void Awake()
         {
             Dropdown = GetComponent<GenericDropdown>();

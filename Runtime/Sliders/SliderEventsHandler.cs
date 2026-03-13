@@ -9,6 +9,12 @@ namespace Rossoforge.UI.Controls.Sliders
         protected Slider Slider;
         private ISliderValueChangedListener<T> _valueChangedListener;
 
+        public float Value 
+        { 
+            get => Slider.value;
+            set => Slider.value = value;
+        }
+
         protected virtual void Awake()
         {
             Slider = GetComponent<Slider>();

@@ -8,6 +8,12 @@ namespace Rossoforge.UI.Controls.Switches
         protected Switch Switch;
         private ISwitchValueChangedListener<T> _valueChangedListener;
 
+        public bool Value
+        {
+            get => Switch.IsOn;
+            set => Switch.IsOn = value;
+        }
+
         protected virtual void Awake()
         {
             Switch = GetComponent<Switch>();

@@ -8,6 +8,12 @@ namespace Rossoforge.UI.Controls.ProgressBars
         protected ProgressBar ProgressBar;
         private IProgressBarValueChangedListener<T> _valueChangedListener;
 
+        public float Value
+        {
+            get => ProgressBar.value;
+            set => ProgressBar.value = value;
+        }
+
         protected virtual void Awake()
         {
             ProgressBar = GetComponent<ProgressBar>();

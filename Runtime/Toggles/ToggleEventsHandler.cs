@@ -9,6 +9,12 @@ namespace Rossoforge.UI.Controls.Toggles
         protected Toggle Toggle;
         private IToggleValueChangedListener<T> _valueChangedListener;
 
+        public bool Value
+        {
+            get => Toggle.isOn;
+            set => Toggle.isOn = value;
+        }
+
         protected virtual void Awake()
         {
             Toggle = GetComponent<Toggle>();

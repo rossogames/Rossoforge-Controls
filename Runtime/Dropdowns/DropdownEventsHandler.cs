@@ -9,6 +9,12 @@ namespace Rossoforge.UI.Controls.Dropdowns
         protected TMP_Dropdown Dropdown;
         private IDropdownValueChangedListener<T> _valueChangedListener;
 
+        public int Value
+        {
+            get => Dropdown.value;
+            set => Dropdown.value = value;
+        }
+
         protected virtual void Awake()
         {
             Dropdown = GetComponent<TMP_Dropdown>();
