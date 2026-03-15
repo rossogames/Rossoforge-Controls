@@ -1,0 +1,6 @@
+using Rossoforge.UI.Controls.Toggles;
+
+public class #SCRIPTNAME# : ToggleEventsHandler<#SCRIPTNAME#>
+{
+
+}

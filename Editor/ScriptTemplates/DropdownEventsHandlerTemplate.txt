@@ -1,0 +1,6 @@
+using Rossoforge.UI.Controls.Dropdowns;
+
+public class #SCRIPTNAME# : DropdownEventsHandler<#SCRIPTNAME#>
+{
+
+}

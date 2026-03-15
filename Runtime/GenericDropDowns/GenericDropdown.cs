@@ -70,6 +70,26 @@ namespace Rossoforge.UI.Controls.GenericDropDowns
             return (T)items[value];
         }
 
+        public void SetSelectedItem(object item)
+        {
+            if (item == null)
+                return;
+
+            int index = items.IndexOf(item);
+            if (index < 0)
+            {
+                RossoLogger.Warning("The item provided does not exist in the dropdown.");
+                return;
+            }
+
+            if (value != index)
+            {
+                value = index;
+                RefreshShownValue();
+                HandleValueChanged(index);
+            }
+        }
+
         private string GetItemText(object item)
         {
             if (item == null)

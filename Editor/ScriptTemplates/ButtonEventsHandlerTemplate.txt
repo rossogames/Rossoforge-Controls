@@ -1,0 +1,6 @@
+using Rossoforge.UI.Controls.Buttons;
+
+public class #SCRIPTNAME# : ButtonEventsHandler<#SCRIPTNAME#>
+{
+
+}

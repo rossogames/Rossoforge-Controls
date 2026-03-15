@@ -1,6 +1,6 @@
 {
   "name": "com.rossogames.rossoforge-ui-controls",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "displayName": "Rossoforge-UI-Controls",
   "unity": "2025.0",
   "author": {
@@ -19,6 +19,11 @@
       "displayName": "UI Assets",
       "description": "Provides basic graphical resources, such as shaders and rounded sprites for controls and panels.",
       "path": "Samples~/UIAssets"
+    },
+    {
+      "displayName": "Button Animator",
+      "description": "Default Unity Animator Controller for UI buttons, configured with the standard five button states (Normal, Highlighted, Pressed, Selected, and Disabled).\r\nIt also provides an Animator Override Controller as a sample, featuring simple size in/out animations to demonstrate how to customize button transitions while keeping the same base state machine.\r\nThe sample is intended as a reference for developers to easily extend or replace button animations without modifying the original controller",
+      "path": "Samples~/ButtonAnimator"
     },
     {
       "displayName": "Custom UI Controls",

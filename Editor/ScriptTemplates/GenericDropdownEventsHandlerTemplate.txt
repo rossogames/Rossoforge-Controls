@@ -1,0 +1,20 @@
+using Rossoforge.UI.Controls.GenericDropDowns;
+
+public class #SCRIPTNAME# : GenericDropdownEventsHandler<#SCRIPTNAME#, Person>
+{
+    private void Start()
+    {
+        var people = new[]
+        {
+            new Person { Name = "Alice", Age = 25 },
+            new Person { Name = "Bob", Age = 30 }
+        };
+
+        Dropdown.AddItems(people);
+    }
+}
+public class Person
+{
+    public string Name;
+    public int Age;
+}
