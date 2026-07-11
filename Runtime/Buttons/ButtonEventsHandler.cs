@@ -6,8 +6,9 @@ namespace Rossoforge.UI.Controls.Buttons
     [RequireComponent(typeof(Button))]
     public abstract class ButtonEventsHandler<T> : MonoBehaviour where T : ButtonEventsHandler<T>
     {
-        protected Button Button;
         private IButtonClickListener<T> _clickListener;
+
+        public Button Button { get; private set; }
 
         protected virtual void Awake()
         {

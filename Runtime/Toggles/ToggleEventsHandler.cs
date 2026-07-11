@@ -6,9 +6,9 @@ namespace Rossoforge.UI.Controls.Toggles
     [RequireComponent(typeof(Toggle))]
     public abstract class ToggleEventsHandler<T> : MonoBehaviour where T : ToggleEventsHandler<T>
     {
-        protected Toggle Toggle;
         private IToggleValueChangedListener<T> _valueChangedListener;
 
+        public Toggle Toggle { get; private set; }
         public bool Value
         {
             get => Toggle.isOn;
