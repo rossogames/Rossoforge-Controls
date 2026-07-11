@@ -5,9 +5,9 @@ namespace Rossoforge.UI.Controls.Switches
     [RequireComponent(typeof(Switch))]
     public abstract class SwitchEventsHandler<T> : MonoBehaviour where T : SwitchEventsHandler<T>
     {
-        protected Switch Switch;
         private ISwitchValueChangedListener<T> _valueChangedListener;
 
+        public Switch Switch { get; private set; }
         public bool Value
         {
             get => Switch.IsOn;

@@ -5,15 +5,14 @@ namespace Rossoforge.UI.Controls.GenericDropDowns
     [RequireComponent(typeof(GenericDropdown))]
     public abstract class GenericDropdownEventsHandler<T, R> : MonoBehaviour where T : GenericDropdownEventsHandler<T, R>
     {
-        protected GenericDropdown Dropdown;
         private IGenericDropdownSelectedItemChangedListener<T, R> _selectedItemChangedListener;
 
+        public GenericDropdown Dropdown { get; private set; }
         public R SelectedItem
         {
             get => Dropdown.GetSelectedItem<R>();
             set => Dropdown.SetSelectedItem(value);
         }
-
         public int Value
         {
             get => Dropdown.value;

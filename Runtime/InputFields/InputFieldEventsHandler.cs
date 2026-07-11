@@ -6,12 +6,12 @@ namespace Rossoforge.UI.Controls.InputFields
     [RequireComponent(typeof(TMP_InputField))]
     public abstract class InputFieldEventsHandler<T> : MonoBehaviour where T : InputFieldEventsHandler<T>
     {
-        protected TMP_InputField InputField;
         private IInputFieldValueChangedListener<T> _valueChangedListener;
         private IInputFieldEndEditListener<T> _endEditListener;
         private IInputFieldOnSelectListener<T> _onSelectListener;
         private IInputFieldOnDeselectListener<T> _onDeselectListener;
 
+        public TMP_InputField InputField { get; private set; }
         public string Text
         {
             get => InputField.text;
