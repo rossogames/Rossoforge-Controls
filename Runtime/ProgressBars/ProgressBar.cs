@@ -1,6 +1,6 @@
 using UnityEngine.UI;
 
-namespace Rossoforge.UI.Controls.ProgressBars
+namespace Rossoforge.Controls.ProgressBars
 {
     public class ProgressBar : Slider
     {

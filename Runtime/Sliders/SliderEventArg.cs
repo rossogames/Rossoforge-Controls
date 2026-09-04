@@ -1,4 +1,4 @@
-namespace Rossoforge.UI.Controls.Sliders
+namespace Rossoforge.Controls.Sliders
 {
     public readonly struct SliderEventArg<T> where T : SliderEventsHandler<T>
     {

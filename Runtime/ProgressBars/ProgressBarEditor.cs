@@ -1,9 +1,8 @@
 #if UNITY_EDITOR
-using Rossoforge.UI.Controls.ProgressBars;
 using UnityEditor;
 using UnityEngine;
 
-namespace Rossoforge.UI.Controls
+namespace Rossoforge.Controls.ProgressBars
 {
     [CustomEditor(typeof(ProgressBar))]
     public class ProgressBarEditor : Editor

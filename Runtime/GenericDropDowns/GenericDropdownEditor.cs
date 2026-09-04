@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEditor.UI;
 using UnityEngine;
 
-namespace Rossoforge.UI.Controls.GenericDropDowns
+namespace Rossoforge.Controls.GenericDropDowns
 {
     [CustomEditor(typeof(GenericDropdown))]
     [CanEditMultipleObjects]

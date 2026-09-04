@@ -1,4 +1,4 @@
-namespace Rossoforge.UI.Controls.GenericDropDowns
+namespace Rossoforge.Controls.GenericDropDowns
 {
     public readonly struct GenericDropdownEventArg<T, R> where T : GenericDropdownEventsHandler<T, R>
     {

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Rossoforge.UI.Controls.Sliders
+namespace Rossoforge.Controls.Sliders
 {
     [RequireComponent(typeof(Slider))]
     public abstract class SliderEventsHandler<T> : MonoBehaviour where T : SliderEventsHandler<T>

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Rossoforge.UI.Controls.ProgressBars
+namespace Rossoforge.Controls.ProgressBars
 {
     [RequireComponent(typeof(ProgressBar))]
     public abstract class ProgressBarEventsHandler<T> : MonoBehaviour where T : ProgressBarEventsHandler<T>

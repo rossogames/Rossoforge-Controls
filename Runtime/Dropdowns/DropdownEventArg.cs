@@ -1,4 +1,4 @@
-namespace Rossoforge.UI.Controls.Dropdowns
+namespace Rossoforge.Controls.Dropdowns
 {
     public readonly struct DropdownEventArg<T> where T : DropdownEventsHandler<T>
     {

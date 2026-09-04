@@ -1,4 +1,4 @@
-namespace Rossoforge.UI.Controls.Sliders
+namespace Rossoforge.Controls.Sliders
 {
     public interface ISliderValueChangedListener<T> where T : SliderEventsHandler<T>
     {

@@ -1,4 +1,4 @@
-namespace Rossoforge.UI.Controls.Dropdowns
+namespace Rossoforge.Controls.Dropdowns
 {
     public interface IDropdownValueChangedListener<T> where T : DropdownEventsHandler<T>
     {

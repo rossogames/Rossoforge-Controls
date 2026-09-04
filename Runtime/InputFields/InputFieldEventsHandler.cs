@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace Rossoforge.UI.Controls.InputFields
+namespace Rossoforge.Controls.InputFields
 {
     [RequireComponent(typeof(TMP_InputField))]
     public abstract class InputFieldEventsHandler<T> : MonoBehaviour where T : InputFieldEventsHandler<T>
