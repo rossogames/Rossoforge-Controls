@@ -1,6 +1,6 @@
 using UnityEditor;
 
-namespace Rossoforge.UI.Controls.Editor
+namespace Rossoforge.Controls.Editor
 {
     public static class CreateControlScriptsMenu
     {

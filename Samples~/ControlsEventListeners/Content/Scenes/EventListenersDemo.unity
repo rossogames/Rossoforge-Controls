@@ -214,6 +214,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1385,6 +1386,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1521,6 +1523,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1821,6 +1824,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22dc5668a31702e44afc942b01708352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1344736673 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7257599392468223998, guid: e05255b9bfbbfa641861c43c4be42fcc, type: 3}
+  m_PrefabInstance: {fileID: 2096357130}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1360150696
 GameObject:
   m_ObjectHideFlags: 0
@@ -2078,6 +2086,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2293,6 +2302,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -3612,13 +3622,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7257599392468223998, guid: e05255b9bfbbfa641861c43c4be42fcc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2096357134}
   m_SourcePrefab: {fileID: 100100000, guid: e05255b9bfbbfa641861c43c4be42fcc, type: 3}
 --- !u!224 &2096357131 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7257599392468223999, guid: e05255b9bfbbfa641861c43c4be42fcc, type: 3}
   m_PrefabInstance: {fileID: 2096357130}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2096357134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344736673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b9347dbaec90d54eb851560c53c217d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rossoforge.UI.Popups.UIControls.EventHandlerDemo.SwitchTest
 --- !u!1 &2104156361
 GameObject:
   m_ObjectHideFlags: 0
@@ -3645,14 +3670,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2104156361}
   m_Enabled: 1
-  serializedVersion: 11
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 2
     m_Resolution: -1

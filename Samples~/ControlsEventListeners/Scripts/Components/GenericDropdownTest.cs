@@ -1,6 +1,7 @@
-using Rossoforge.UI.Controls.GenericDropDowns;
 
-namespace Rossoforge.UI.Popups.UIControls.EventHandlerDemo
+using Rossoforge.Controls.GenericDropDowns;
+
+namespace Rossoforge.Controls.Samples.EventHandlerDemo
 {
     public class GenericDropdownTest : GenericDropdownEventsHandler<GenericDropdownTest, Person>
     {

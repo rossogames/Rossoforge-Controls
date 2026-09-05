@@ -2,8 +2,8 @@
 
 <table>
   <tr>
-    <td><img src="https://github.com/rossogames/Rossoforge-UI-Controls/blob/main/logo.png?raw=true" alt="Rossoforge" width="64"/></td>
-    <td><h2>Rossoforge - UI - Controls</h2></td>
+    <td><img src="https://github.com/rossogames/Rossoforge-Controls/blob/main/logo.png?raw=true" alt="Rossoforge" width="64"/></td>
+    <td><h2>Rossoforge - Controls</h2></td>
   </tr>
 </table>
 

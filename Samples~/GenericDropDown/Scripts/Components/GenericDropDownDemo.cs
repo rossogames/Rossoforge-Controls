@@ -1,7 +1,7 @@
-using Rossoforge.UI.Controls.GenericDropDowns;
+using Rossoforge.Controls.GenericDropDowns;
 using UnityEngine;
 
-namespace Rossoforge.UI.Popups.GenericDropDownDemo
+namespace Rossoforge.Controls.Samples.GenericDropDownDemo
 {
     public class GenericDropDownDemo : MonoBehaviour
     {

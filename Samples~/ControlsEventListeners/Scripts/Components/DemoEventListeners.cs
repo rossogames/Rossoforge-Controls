@@ -1,14 +1,14 @@
-using Rossoforge.UI.Controls.Buttons;
-using Rossoforge.UI.Controls.Dropdowns;
-using Rossoforge.UI.Controls.GenericDropDowns;
-using Rossoforge.UI.Controls.InputFields;
-using Rossoforge.UI.Controls.ProgressBars;
-using Rossoforge.UI.Controls.Sliders;
-using Rossoforge.UI.Controls.Switches;
-using Rossoforge.UI.Controls.Toggles;
+using Rossoforge.Controls.Buttons;
+using Rossoforge.Controls.Dropdowns;
+using Rossoforge.Controls.GenericDropDowns;
+using Rossoforge.Controls.InputFields;
+using Rossoforge.Controls.ProgressBars;
+using Rossoforge.Controls.Sliders;
+using Rossoforge.Controls.Switches;
+using Rossoforge.Controls.Toggles;
 using UnityEngine;
 
-namespace Rossoforge.UI.Popups.UIControls.EventHandlerDemo
+namespace Rossoforge.Controls.Samples.EventHandlerDemo
 {
     public class DemoEventListeners : MonoBehaviour,
         IButtonClickListener<ButtonTest>,

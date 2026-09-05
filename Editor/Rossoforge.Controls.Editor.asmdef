@@ -1,6 +1,6 @@
 {
-    "name": "Rossoforge.UI.Controls.Editor",
-    "rootNamespace": "Rossoforge.UI.Controls.Editor",
+    "name": "Rossoforge.Controls.Editor",
+    "rootNamespace": "Rossoforge.Controls.Editor",
     "references": [],
     "includePlatforms": [
         "Editor"
