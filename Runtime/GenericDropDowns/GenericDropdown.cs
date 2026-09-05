@@ -7,7 +7,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Rossoforge.UI.Controls.GenericDropDowns
+namespace Rossoforge.Controls.GenericDropDowns
 {
     [Serializable]
     public class DropdownItemSelectedEvent : UnityEvent<object> { }

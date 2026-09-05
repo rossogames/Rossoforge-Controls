@@ -1,4 +1,4 @@
-namespace Rossoforge.UI.Controls.Buttons
+namespace Rossoforge.Controls.Buttons
 {
     public readonly struct ButtonEventArg<T> where T : ButtonEventsHandler<T>
     {

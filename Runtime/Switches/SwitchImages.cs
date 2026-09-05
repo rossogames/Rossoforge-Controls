@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine.UI;
 
-namespace Rossoforge.UI.Controls.Switches
+namespace Rossoforge.Controls.Switches
 {
     [Serializable]
     public class SwitchImages

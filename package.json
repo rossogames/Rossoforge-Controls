@@ -1,7 +1,7 @@
 {
-  "name": "com.rossogames.rossoforge-ui-controls",
-  "version": "1.4.1",
-  "displayName": "Rossoforge-UI-Controls",
+  "name": "com.rossogames.rossoforge-controls",
+  "version": "1.5.0",
+  "displayName": "Rossoforge-Controls",
   "unity": "2025.0",
   "author": {
     "name": "Agustin Rosso",

@@ -1,4 +1,4 @@
-namespace Rossoforge.UI.Controls.InputFields
+namespace Rossoforge.Controls.InputFields
 {
     public interface IInputFieldValueChangedListener<T> where T : InputFieldEventsHandler<T>
     {

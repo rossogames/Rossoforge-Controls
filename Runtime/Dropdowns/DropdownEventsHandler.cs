@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace Rossoforge.UI.Controls.Dropdowns
+namespace Rossoforge.Controls.Dropdowns
 {
     [RequireComponent(typeof(TMP_Dropdown))]
     public abstract class DropdownEventsHandler<T> : MonoBehaviour where T : DropdownEventsHandler<T>

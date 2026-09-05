@@ -1,4 +1,4 @@
-using Rossoforge.UI.Controls.GenericDropDowns;
+using Rossoforge.Controls.GenericDropDowns;
 
 public class #SCRIPTNAME# : GenericDropdownEventsHandler<#SCRIPTNAME#, Person>
 {

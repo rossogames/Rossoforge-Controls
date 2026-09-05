@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Rossoforge.UI.Controls.Toggles
+namespace Rossoforge.Controls.Toggles
 {
     [RequireComponent(typeof(Toggle))]
     public abstract class ToggleEventsHandler<T> : MonoBehaviour where T : ToggleEventsHandler<T>

@@ -1,4 +1,4 @@
-using Rossoforge.UI.Controls.ProgressBars;
+using Rossoforge.Controls.ProgressBars;
 
 public class #SCRIPTNAME# : ProgressBarEventsHandler<#SCRIPTNAME#>
 {

@@ -1,4 +1,4 @@
-namespace Rossoforge.UI.Controls.Switches
+namespace Rossoforge.Controls.Switches
 {
     public readonly struct SwitchEventArg<T> where T : SwitchEventsHandler<T>
     {

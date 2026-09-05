@@ -4,7 +4,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using static Rossoforge.Extensions.RectTransformExtensions;
 
-namespace Rossoforge.UI.Controls.Switches
+namespace Rossoforge.Controls.Switches
 {
     [RequireComponent(typeof(CanvasGroup))]
     public class Switch : MonoBehaviour, IPointerDownHandler

@@ -1,4 +1,4 @@
-namespace Rossoforge.UI.Controls.ProgressBars
+namespace Rossoforge.Controls.ProgressBars
 {
     public readonly struct ProgressBarEventArg<T> where T : ProgressBarEventsHandler<T>
     {

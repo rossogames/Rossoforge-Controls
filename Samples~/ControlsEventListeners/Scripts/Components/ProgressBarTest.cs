@@ -1,13 +1,13 @@
-using Rossoforge.UI.Controls.ProgressBars;
+using Rossoforge.Controls.ProgressBars;
 using UnityEngine;
 
-namespace Rossoforge.UI.Popups.UIControls.EventHandlerDemo
+namespace Rossoforge.Controls.Samples.EventHandlerDemo
 {
     public class ProgressBarTest : ProgressBarEventsHandler<ProgressBarTest>
     {
         private void Update()
         {
-            if(Input.GetKey(KeyCode.KeypadPlus))
+            if (Input.GetKey(KeyCode.KeypadPlus))
                 base.ProgressBar.value += 0.2f * Time.deltaTime;
 
             if (Input.GetKey(KeyCode.KeypadMinus))

@@ -1,6 +1,6 @@
 {
-    "name": "Rossoforge.UI.Controls",
-    "rootNamespace": "Rossoforge.UI.Controls",
+    "name": "Rossoforge.Controls",
+    "rootNamespace": "Rossoforge.Controls",
     "references": [
         "Unity.TextMeshPro",
         "Rossoforge.Extensions",

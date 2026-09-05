@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Rossoforge.UI.Controls.GenericDropDowns
+namespace Rossoforge.Controls.GenericDropDowns
 {
     [RequireComponent(typeof(GenericDropdown))]
     public abstract class GenericDropdownEventsHandler<T, R> : MonoBehaviour where T : GenericDropdownEventsHandler<T, R>
